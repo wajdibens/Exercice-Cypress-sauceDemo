@@ -1,7 +1,5 @@
 
 describe("suite de test: connexion sauceDemo", function () {
-    
-})
 
 it("test1: userName valide / mdp valide", function () {
     cy.visit ("https://www.saucedemo.com/")
@@ -40,3 +38,4 @@ it("test4: userName bloqué", function () {
    
 })
 
+})
